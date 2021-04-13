@@ -1,0 +1,276 @@
+@media screen and (max-width:1199px)
+{
+    .instaLeader {
+        .col-lg-4:nth-child(3) {
+            .p-5 {
+                padding-bottom:5.2rem!important;
+            }
+        }
+        .advBlock {
+            width: 289.88px!important;
+            .ht {
+                font-size: 1.325em!important;
+            }
+            .ht_comment {
+                font-size: 0.75em!important;
+            }
+        }
+    }
+    .HowDoesItWork {
+        .tHeading {font-size: 0.875em!important;}
+        .comment {font-size: 0.825em!important; }
+    }
+    .free-access {
+        .h1 {
+            font-size: 1.25em;
+        }
+    }
+}
+
+@media screen and (max-width:991px)
+{
+    .imgLikes {
+        display:none;
+    }
+    .girls {
+        background-image: none;
+        background-color: #fff;
+        .container {
+            max-width: 991px;
+            padding: 0;
+            &>img {
+                display: block!important;
+            }
+            .content1 {
+                padding-top: 7.5rem;
+                max-width: 64rem;
+                .btn-create .flash {
+                    display: block!important;
+                }
+                .d-flex {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center!important;
+                    .d-none {
+                        display: block!important;
+                        margin-top: 3rem;
+                        margin-bottom: 2rem;
+                    }
+                    .black-btn {
+                        padding-left: 6.165rem;
+                        padding-right: 6.165rem;
+                    }
+                }
+                
+            }
+            .content1Box {
+                justify-content: center!important;
+            }
+            .d-flex {
+                .black-btn {
+                    margin: 0;
+                }
+                .tSubscribers {
+                    text-align: center;
+                    font-family: 'Roboto',Arial,sans-serif;
+                    font-size: 2.75em;
+                    font-style: normal;
+                    line-height: 1.23;
+                }
+                .tCreatePage {
+                    text-align: center;
+                    font-size: 1.375em;
+                    font-family: 'Roboto',Arial,sans-serif;
+                    font-style: normal;
+                    color: #000000;
+                    font-weight: 300;
+                    line-height: 1.4;
+                    br {display: none;}
+                }
+            }
+        }
+        header {
+            padding-top:2rem;
+            padding-bottom:2rem;
+            justify-content: start!important;
+            .numberBlock {
+                display:none!important;
+            }
+            .logo-block {
+                padding-right: 1rem!important;
+                img {
+                    width: 74px;
+                    height: 74px;
+                }
+                .d-none {
+                    display: flex!important;
+                }
+                .tService {
+                    display:none;
+                }  
+            }
+            .authButtons {
+                .register {
+                    margin-right: 0!important;
+                    margin-left: 0.5rem!important;
+                    padding-top: 1rem!important;
+                    padding-bottom: 1rem!important;
+                }
+                .auth {
+                    margin-right: 0.5rem!important;
+                    padding-top: 1rem!important;
+                    padding-bottom: 1rem!important;
+                }
+            }
+        }
+    }
+    .c4 { display: none!important;}
+
+    .free {
+        .col-video {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .advantages {
+        .numbers-line {
+            .second {
+                padding-left: 2.1rem;
+            }
+            .third-comment {
+                padding-right: 1.9rem;
+            }
+            .forth {
+                padding-left: 1.8rem;
+            }
+            justify-content: center;
+        }
+    }
+    .instaLeader {
+        .advBlock
+        {
+            width: 350px!important;
+            .ht {
+                font-size: 1.5em!important;
+            }
+            .ht_comment {
+                font-size: 0.875em!important;
+            }
+            margin-bottom: 4rem;
+        }
+        .col-md-12 { 
+            display: flex;
+            justify-content: center;
+        }
+        .row {
+            flex-direction: column;
+            .col {
+                width: 400px;
+            }
+        }
+    }
+    .HowDoesItWork {
+        .h1 {padding-bottom: 4.5rem;}
+        .reg {
+            .tHeading {font-size: 0.875em!important;}
+            .comment {
+                font-size: 0.875em!important; 
+                padding-bottom: 9rem;
+            }
+            .cirqle-line {
+                justify-content: space-between!important;
+                left: 50%;
+                top: 85%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                flex-direction: column;
+                height: 32px;
+                .cirqle:nth-child(4) {
+                    display: none;
+                }
+                .cirqle:nth-child(5) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .free-access {
+        .btn {
+            margin-left: 0;
+            margin-top: 2rem;
+        }
+        .h1 {
+            flex-basis: 100%;
+        }
+    }
+    footer {
+        padding-bottom: 9rem;
+        padding-top: 6rem;
+        .container 
+        {
+            flex-wrap: wrap;
+            justify-content: center!important;
+            .logo2 {
+                flex-basis: 100%;
+                margin-bottom: 4rem;
+            }
+            .emptyblock {
+                display: none;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:670px)
+{
+    footer .info{
+          font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .content1 {
+        .tSubscribers {
+            font-size: 1.875em!important;
+        }
+        .tCreatePage {
+            font-size: 1.25em!important;
+        }
+        .d-flex {
+            .btn-create {
+                width: 100%;
+                padding-left: 2rem!important;
+                padding-right: 2rem!important;
+            }
+            .black-btn {
+                padding-left: 0!important;
+                padding-right: 0!important;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:528px)
+{
+    .ytVideo {
+        width: 308px!important;
+        height: 200px!important;
+    }
+    .advantages {
+        .numbers-line {
+            .second {
+                padding-left: 0;
+            }
+            .third-comment {
+                padding-right: 0;
+            }
+            .forth {
+                padding-left: 0;
+            }
+            justify-content: left;
+        }
+    }
+}
